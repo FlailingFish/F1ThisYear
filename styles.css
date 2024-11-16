@@ -1,0 +1,30 @@
+body {
+    background-color: #212529;
+}
+
+table {
+    table-layout: fixed;
+}
+
+.table-heading-left {
+    text-align:left;
+}
+
+.table-heading-right {
+    text-align: right;
+}
+
+.table-title {
+    text-align: center;
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.table-right-side-data {
+    text-align: right;
+}
+
+nav {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
