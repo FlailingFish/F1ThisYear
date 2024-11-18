@@ -3,7 +3,7 @@ body {
 }
 
 table {
-    table-layout: fixed;
+    table-layout: 70%;
 }
 
 .table-heading-left {
@@ -31,4 +31,62 @@ nav {
 
 .next-race {
     font-weight: 700;
+}
+
+.team-tab
+{
+    padding-left: 0.4rem;
+    border-left: solid;
+    border-radius: 5px;
+    border-width: 0.325rem;
+}
+
+.team-border-colour-redbull
+{
+    border-color: #3671C6;
+}
+
+.team-border-colour-ferrari
+{
+    border-color: #E8002D;
+}
+
+.team-border-colour-mclaren
+{
+    border-color: #FF8000;
+}
+
+.team-border-colour-mercedes
+{
+    border-color: #27F4D2;
+}
+
+.team-border-colour-astonmartin
+{
+    border-color: #229971;
+}
+
+.team-border-colour-alpine
+{
+    border-color: #FF87BC;
+}
+
+.team-border-colour-haas
+{
+    border-color: #B6BABD;
+}
+
+.team-border-colour-vcarb
+{
+    border-color: #6692FF;
+}
+
+.team-border-colour-williams
+{
+    border-color: #64C4FF;
+}
+
+.team-border-colour-sauber
+{
+    border-color: #52E252;
 }
