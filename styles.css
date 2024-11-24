@@ -16,8 +16,14 @@ table {
 
 .table-title {
     text-align: center;
+    color: rgb(235, 58, 27);
+    margin-bottom: 0.5rem;
+}
+
+.page-title {
+    text-align: center;
     color: white;
-    margin-bottom: 1rem;
+    margin-bottom: 0.8rem;
 }
 
 .table-right-side-data {
