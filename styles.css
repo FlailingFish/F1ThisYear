@@ -16,7 +16,7 @@ table {
 
 .table-title {
     text-align: center;
-    color: rgb(235, 58, 27);
+    color: white;
     margin-bottom: 0.5rem;
 }
 
@@ -95,4 +95,22 @@ nav {
 .team-border-colour-sauber
 {
     border-color: #52E252;
+}
+
+.trophy-gold-icon
+{
+    margin-right: 0.3rem;
+    color: gold;
+}
+
+.trophy-silver-icon
+{
+    margin-right: 0.3rem;
+    color: silver;
+}
+
+.trophy-bronze-icon
+{
+    margin-right: 0.3rem;
+    color: rgb(206, 103, 63);
 }
