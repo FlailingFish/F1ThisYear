@@ -21,7 +21,7 @@ table {
     font-size: 1.8rem;
 }
 
-.page-title {
+#page-title {
     text-align: center;
     color: white;
     margin-bottom: 0.8rem;
@@ -48,52 +48,52 @@ nav {
     border-width: 0.325rem;
 }
 
-.team-border-colour-redbull
+.team-colour-redbull
 {
     border-color: #3671C6;
 }
 
-.team-border-colour-ferrari
+.team-colour-ferrari
 {
     border-color: #E8002D;
 }
 
-.team-border-colour-mclaren
+.team-colour-mclaren
 {
     border-color: #FF8000;
 }
 
-.team-border-colour-mercedes
+.team-colour-mercedes
 {
     border-color: #27F4D2;
 }
 
-.team-border-colour-astonmartin
+.team-colour-astonmartin
 {
     border-color: #229971;
 }
 
-.team-border-colour-alpine
+.team-colour-alpine
 {
     border-color: #FF87BC;
 }
 
-.team-border-colour-haas
+.team-colour-haas
 {
     border-color: #B6BABD;
 }
 
-.team-border-colour-vcarb
+.team-colour-vcarb
 {
     border-color: #6692FF;
 }
 
-.team-border-colour-williams
+.team-colour-williams
 {
     border-color: #64C4FF;
 }
 
-.team-border-colour-sauber
+.team-colour-sauber
 {
     border-color: #52E252;
 }
