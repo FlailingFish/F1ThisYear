@@ -1,18 +1,15 @@
-let data;
-
-async function getYearData() {
-    const response = await fetch("../data/2024.json");
+async function getYearData(year) {
+console.log("../data/" + year + ".json");
+    const response = await fetch("../data/" + year + ".json");
     const json = await response.json();
     return json;
 }
 
 async function buildPage() {
-    const data = await getYearData();
+    var url = window.location.pathname;
+    var year = url.substring(url.lastIndexOf('/')+1, url.lastIndexOf('/')+5);
 
-    const currentYear = 2024;
-
-    const pageTitle = document.getElementById("page-title");
-
+    const data = await getYearData(year);
     buildTables(data);
 }
 

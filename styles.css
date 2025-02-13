@@ -2,8 +2,8 @@ body {
     background-color: #212529;
 }
 
-table {
-    table-layout: 70%;
+.table-center-data {
+    text-align: center;
 }
 
 .table-heading-left {
@@ -12,6 +12,13 @@ table {
 
 .table-heading-right {
     text-align: right;
+}
+
+.calendar-title {
+    text-align: center;
+    color: white;
+    font-size: 1.8rem;
+    margin-bottom: 0;
 }
 
 .table-title {
@@ -115,3 +122,50 @@ nav {
     margin-right: 0.3rem;
     color: rgb(206, 103, 63);
 }
+
+.footer {
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+
+  #active-row-click {
+    --bs-table-bg: rgb(24, 105, 151);
+  }
+
+  .icon-td {
+    padding-right: 0 !important;
+  }
+
+  .chevron-active {
+    transform: rotate(90deg);
+    transform-origin: 52% 45%;
+  }
+
+  .stripe-style {
+    --bs-table-bg: #2c3034;
+  }
+
+  .tz-select {
+    display:flex;
+    justify-content: center;
+    margin-bottom: 0.5rem;
+  }
+
+  .inline-style {
+    display: inline;
+  }
+
+ #timeselectdropdown {
+    margin-left: 0.75rem;
+    width: 110px;
+    color: white;
+    background-color: #212529;
+    border-radius: 4px;
+  }
+
+  .table-border-after {
+    border-bottom: 1px solid #4d5154;
+  }
