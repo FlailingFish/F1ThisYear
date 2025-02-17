@@ -37,15 +37,18 @@ function buildTables(tableData) {
            {
                 clone = driversConstructorsRowTemplate.content.cloneNode(true);
                 let td = clone.querySelectorAll("td");
-                td[0].querySelector("div").innerText = tableData.drivers[i].name;
+
+                td[0].textContent = i + 1;
+
+                td[1].querySelector("div").innerText = tableData.drivers[i].name;
 
                 let col = getTeamColorClass(tableData.drivers[i].team);
                if(col !== "")
                  {
-                    td[0].querySelector("div").classList.add(col);
+                    td[1].querySelector("div").classList.add(col);
               }
 
-                td[1].textContent = tableData.drivers[i].points;
+                td[2].textContent = tableData.drivers[i].points;
                 driversTableBody.appendChild(clone);
            }
 
@@ -54,15 +57,18 @@ function buildTables(tableData) {
            {
                 clone = driversConstructorsRowTemplate.content.cloneNode(true);
                 let td = clone.querySelectorAll("td");
-                td[0].querySelector("div").innerText = tableData.constructors[i].team;
+                
+                td[0].textContent = i + 1;
+
+                td[1].querySelector("div").innerText = tableData.constructors[i].team;
 
                 let col = getTeamColorClass(tableData.constructors[i].team);
                 if(col !== "")
                   {
-                     td[0].querySelector("div").classList.add(col);
+                     td[1].querySelector("div").classList.add(col);
                }
 
-                td[1].textContent = tableData.constructors[i].points;
+                td[2].textContent = tableData.constructors[i].points;
                 constructorsTableBody.appendChild(clone);
            }
         }
@@ -81,9 +87,9 @@ function getTeamColorClass(team)
     if(team === "Aston Martin Aramco Mercedes") { return "team-colour-astonmartin"; }
     if(team === "Haas Ferrari") { return "team-colour-haas"; }
     if(team === "Alpine Renault") { return "team-colour-alpine"; }
-    if(team === "RB Honda RBPT") { return "team-colour-vcarb"; }
+    if(team === "RB Honda RBPT" || team === "AlphaTauri Honda RBPT") { return "team-colour-vcarb"; }
     if(team === "Williams Mercedes") { return "team-colour-williams"; }
-    if(team === "Kick Sauber Ferrari") { return "team-colour-sauber"; }
+    if(team === "Kick Sauber Ferrari" || team === "Alfa Romeo Ferrari") { return "team-colour-sauber"; }
 
     return "";
 }
