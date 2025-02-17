@@ -2,6 +2,14 @@ body {
     background-color: #212529;
 }
 
+.navbar {
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0.8rem;
+  padding-right: 0.4rem;
+  background-color: #272a2c;
+}
+
 .table-center-data {
     text-align: center;
 }
@@ -29,6 +37,7 @@ body {
 }
 
 #page-title {
+    margin-top: 0.4rem;
     text-align: center;
     color: white;
     margin-bottom: 0.8rem;
@@ -45,6 +54,7 @@ nav {
 
 .next-race {
     font-weight: 700;
+    --bs-table-color: rgb(255, 166, 0);
 }
 
 .team-tab
@@ -82,7 +92,7 @@ nav {
   }
 
   #active-row-click {
-    --bs-table-bg: rgb(24, 105, 151);
+    --bs-table-bg: #186997;
   }
 
   .icon-td {
@@ -91,7 +101,7 @@ nav {
 
   .chevron-active {
     transform: rotate(90deg);
-    transform-origin: 52% 45%;
+    transform-origin: 45% 45%;
   }
 
   .stripe-style {
