@@ -150,8 +150,8 @@
             {"name": "Race", "datetime": "2025-12-07T17:00:00"}]}
     ],
     "drivers": [
-        {"name":"Lando Norris", "team":"Mclaren Mercedes", "points": 0},
-        {"name":"Oscar Piastri", "team":"Mclaren Mercedes", "points": 0},
+        {"name":"Lando Norris", "team":"McLaren Mercedes", "points": 0},
+        {"name":"Oscar Piastri", "team":"McLaren Mercedes", "points": 0},
         {"name":"Charles Leclerc", "team":"Ferrari", "points": 0},
         {"name":"Lewis Hamilton", "team":"Ferrari", "points": 0},
         {"name":"Max Verstappen", "team":"Red Bull Racing Honda RBPT", "points": 0},
@@ -172,7 +172,7 @@
         {"name":"Gabriel Bortoleto", "team":"Kick Sauber Ferrari", "points": 0}
     ],
     "constructors": [
-        {"team":"Mclaren Mercedes", "points":0},
+        {"team":"McLaren Mercedes", "points":0},
         {"team":"Ferrari", "points":0},
         {"team":"Red Bull Racing Honda RBPT", "points":0},
         {"team":"Mercedes", "points":0},

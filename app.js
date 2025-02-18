@@ -81,15 +81,15 @@ function buildTables(tableData) {
 function getTeamColorClass(team)
 {
     if(team === "Ferrari") { return "team-colour-ferrari"; }
-    if(team === "Mclaren Mercedes") { return "team-colour-mclaren"; }
-    if(team === "Red Bull Racing Honda RBPT") { return "team-colour-redbull"; }
+    if(team === "McLaren Mercedes") { return "team-colour-mclaren"; }
+    if(team === "Red Bull Racing Honda RBPT" || team === "Red Bull Racing RBPT" || team === "Red Bull Racing Honda") { return "team-colour-redbull"; }
     if(team === "Mercedes") { return "team-colour-mercedes"; }
-    if(team === "Aston Martin Aramco Mercedes") { return "team-colour-astonmartin"; }
+    if(team === "Aston Martin Aramco Mercedes" || team === "Aston Martin Mercedes") { return "team-colour-astonmartin"; }
     if(team === "Haas Ferrari") { return "team-colour-haas"; }
     if(team === "Alpine Renault") { return "team-colour-alpine"; }
-    if(team === "RB Honda RBPT" || team === "AlphaTauri Honda RBPT") { return "team-colour-vcarb"; }
+    if(team === "RB Honda RBPT" || team === "AlphaTauri Honda RBPT" || team === "AlphaTauri Honda") { return "team-colour-vcarb"; }
     if(team === "Williams Mercedes") { return "team-colour-williams"; }
-    if(team === "Kick Sauber Ferrari" || team === "Alfa Romeo Ferrari") { return "team-colour-sauber"; }
+    if(team === "Kick Sauber Ferrari" || team === "Alfa Romeo Ferrari" || team === "Alfa Romeo Racing Ferrari") { return "team-colour-sauber"; }
 
     return "";
 }
