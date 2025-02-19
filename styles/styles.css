@@ -57,6 +57,11 @@ nav {
     --bs-table-color: rgb(255, 166, 0);
 }
 
+.next-race-text {
+  font-weight: 700;
+  color: rgb(255, 166, 0);
+}
+
 .team-tab
 {
     padding-left: 0.4rem;
