@@ -8,7 +8,7 @@
             {"name": "Practice 1", "datetime":"2025-03-14T12:30:00"}, 
             {"name": "Practice 2", "datetime":"2025-03-14T16:00:00"}, 
             {"name": "Practice 3", "datetime":"2025-03-15T12:30:00"},
-            {"name": "Qualifying", "datetime":"2025-03-16T16:00:00"},
+            {"name": "Qualifying", "datetime":"2025-03-15T16:00:00"},
             {"name": "Race", "datetime":"2025-03-16T15:00:00"}]},
         {"name":"China", "dates": "March 21-23", "timezone":"Asia/Shanghai", "sessions": [
             {"name": "Practice 1", "datetime": "2025-03-21T11:30:00"}, 
