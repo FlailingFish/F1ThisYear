@@ -121,12 +121,69 @@ async function generateCalendarTimes() {
             calendarDates.push(raceSessionDates);
 
             calendarTableObjects[i].after(clone);
+            
+            const driversTableBody = document.getElementById("driverstablebody");
+            const driversConstructorsRowTemplate = document.querySelector("#driverstablerow");
+
+            const constructorsTableBody = document.getElementById("constructorstablebody");
+            
+            //build drivers table
+            if(i < data.drivers.length)
+            {
+                clone = driversConstructorsRowTemplate.content.cloneNode(true);
+                let td = clone.querySelectorAll("td");
+
+                td[0].textContent = i + 1;
+
+                td[1].querySelector("div").innerText = data.drivers[i].name;
+
+                let col = getTeamColorClass(data.drivers[i].team);
+                if(col !== "")
+                {
+                    td[1].querySelector("div").classList.add(col);
+                }
+
+                td[2].textContent = data.drivers[i].points;
+                driversTableBody.appendChild(clone);
+            }
+
+            //build constructors table
+            if(i < data.constructors.length)
+            {
+                clone = driversConstructorsRowTemplate.content.cloneNode(true);
+                let td = clone.querySelectorAll("td");
+                
+                td[0].textContent = i + 1;
+
+                td[1].querySelector("div").innerText = data.constructors[i].team;
+
+                let col = getTeamColorClass(data.constructors[i].id);
+                if(col !== "")
+                {
+                    td[1].querySelector("div").classList.add(col);
+                }
+
+                td[2].textContent = data.constructors[i].points;
+                constructorsTableBody.appendChild(clone);
+            }
         }
     }
-    else
-    {
+}
 
-    }
+function getTeamColorClass(team)
+{
+    if(team === "fer") { return "team-colour-ferrari"; }
+    if(team === "mcl") { return "team-colour-mclaren"; }
+    if(team === "rbr") { return "team-colour-redbull"; }
+    if(team === "mer") { return "team-colour-mercedes"; }
+    if(team === "ast") { return "team-colour-astonmartin"; }
+    if(team === "haa") { return "team-colour-haas"; }
+    if(team === "alp") { return "team-colour-alpine"; }
+    if(team === "rab") { return "team-colour-vcarb"; }
+    if(team === "wir") { return "team-colour-williams"; }
+    if(team === "sau") { return "team-colour-sauber"; }
+
+    return "";
 }
 
 function constructEventDates(index, startDate, endDate)

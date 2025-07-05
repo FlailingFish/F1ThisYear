@@ -280,118 +280,21 @@
                     <thead>
                         <tr>
                             <th class="table-center-data" width="5%">#</th>
-                            <th class="" width="90%">Driver</th>
-                            <th class="" width="5%">Points</th>
+                            <th class="table-heading-left" width="90%">Driver</th>
+                            <th class="table-heading-right" width="5%">Points</th>
                         </tr>
                     </thead>
-                    <tbody id="driverstablebody"> 
-                    <tr>
-                        <td class="table-center-data">1</td>
-                        <td><div class="team-tab team-colour-mclaren">Oscar Piastri</div></td>
-                        <td class="table-right-side-data">216</td>
-                    </tr>        
-                    <tr>
-                        <td class="table-center-data">2</td>
-                        <td><div class="team-tab team-colour-mclaren">Lando Norris</div></td>
-                        <td class="table-right-side-data">201</td>
-                    </tr>
-                    <tr>
-                        <td class="table-center-data">3</td>
-                        <td><div class="team-tab team-colour-redbull">Max Verstappen</div></td>
-                        <td class="table-right-side-data">155</td>
-                    </tr>
-                    <tr>
-                        <td class="table-center-data">4</td>
-                        <td><div class="team-tab team-colour-mercedes">George Russell</div></td>
-                        <td class="table-right-side-data">146</td>
-                    </tr>
-                    <tr>
-                        <td class="table-center-data">5</td>
-                        <td><div class="team-tab team-colour-ferrari">Charles Leclerc</div></td>
-                        <td class="table-right-side-data">119</td>
-                    </tr>
-                    <tr>
-                        <td class="table-center-data">6</td>
-                        <td><div class="team-tab team-colour-ferrari">Lewis Hamilton</div></td>
-                        <td class="table-right-side-data">91</td>
-                    </tr> 
-                    <tr>
-                        <td class="table-center-data">7</td>
-                        <td><div class="team-tab team-colour-mercedes">Andrea Kimi Antonelli</div></td>
-                        <td class="table-right-side-data">63</td>
-                    </tr> 
-                    <tr>
-                        <td class="table-center-data">8</td>
-                        <td><div class="team-tab team-colour-williams">Alexander Albon</div></td>
-                        <td class="table-right-side-data">42</td>
-                    </tr>
-                    <tr>
-                        <td class="table-center-data">9</td>
-                        <td><div class="team-tab team-colour-haas">Esteban Ocon</div></td>
-                        <td class="table-right-side-data">23</td>
-                    </tr>
-                    <tr>
-                        <td class="table-center-data">10</td>
-                        <td><div class="team-tab team-colour-sauber">Nico Hulkenberg</div></td>
-                        <td class="table-right-side-data">22</td>
-                    </tr>
-                    <tr>
-                        <td class="table-center-data">11</td>
-                        <td><div class="team-tab team-colour-vcarb">Isack Hadjar</div></td>
-                        <td class="table-right-side-data">21</td>
-                    </tr> 
-                    <tr>
-                        <td class="table-center-data">12</td>
-                        <td><div class="team-tab team-colour-astonmartin">Lance Stroll</div></td>
-                        <td class="table-right-side-data">14</td>
-                    </tr>
-                    <tr>
-                        <td class="table-center-data">13</td>
-                        <td><div class="team-tab team-colour-astonmartin">Fernando Alonso</div></td>
-                        <td class="table-right-side-data">14</td>
-                    </tr> 
-                    <tr>
-                        <td class="table-center-data">14</td>
-                        <td><div class="team-tab team-colour-williams">Carlos Sainz</div></td>
-                        <td class="table-right-side-data">13</td>
-                    </tr>
-                    <tr>
-                        <td class="table-center-data">15</td>
-                        <td><div class="team-tab team-colour-vcarb">Liam Lawson</div></td>
-                        <td class="table-right-side-data">12</td>
-                    </tr>
-                    <tr>
-                        <td class="table-center-data">16</td>
-                        <td><div class="team-tab team-colour-alpine">Pierre Gasly</div></td>
-                        <td class="table-right-side-data">11</td>
-                    </tr> 
-                    <tr>
-                        <td class="table-center-data">17</td>
-                        <td><div class="team-tab team-colour-redbull">Yuki Tsunoda</div></td>
-                        <td class="table-right-side-data">10</td>
-                    </tr>                                 
-                    <tr>
-                        <td class="table-center-data">18</td>
-                        <td><div class="team-tab team-colour-haas">Oliver Bearman</div></td>
-                        <td class="table-right-side-data">6</td>
-                    </tr>                                                                                                                                                                                   
-                    <tr>
-                        <td class="table-center-data">19</td>
-                        <td><div class="team-tab team-colour-sauber">Gabriel Bortoleto</div></td>
-                        <td class="table-right-side-data">4s</td>
-                    </tr> 
-                    <tr>
-                        <td class="table-center-data">20</td>
-                        <td><div class="team-tab team-colour-alpine">Jack Doohan</div></td>
-                        <td class="table-right-side-data">0</td>
-                    </tr>
-                    <tr>
-                        <td class="table-center-data">21</td>
-                        <td><div class="team-tab team-colour-alpine">Franco Colapinto</div></td>
-                        <td class="table-right-side-data">0</td>
-                    </tr>                                                     
-                </tbody>
+                    <tbody id="driverstablebody">
+                    </tbody>
                 </table>
+
+                <template id="driverstablerow">
+                    <tr>
+                        <td class="table-center-data"></td>
+                        <td><div class="team-tab"></div></td>
+                        <td class="table-right-side-data"></td>
+                    </tr>
+                </template>
             </div>
             <div class="col-lg-4">
                 <h2 class="table-title">Constructor Standings</h2>
@@ -402,65 +305,15 @@
                             <th class="table-heading-left" width="90%">Constructor</th>
                             <th class="table-heading-right" width="5%">Points</th>
                         </tr>
-                    </thead>     
-                    <tbody id="constructorstablebody">  
-                        <tr>
-                            <td class="table-center-data">1</td>
-                            <td><div class="team-tab team-colour-mclaren">McLaren</div></td>
-                            <td class="table-right-side-data">417</td>
-                        </tr>
-                        <tr>
-                            <td class="table-center-data">2</td>
-                            <td><div class="team-tab team-colour-ferrari">Ferrari</div></td>
-                            <td class="table-right-side-data">210</td>
-                        </tr>
-                        <tr>
-                            <td class="table-center-data">3</td>
-                            <td><div class="team-tab team-colour-mercedes">Mercedes-AMG PETRONAS</div></td>
-                            <td class="table-right-side-data">209</td>
-                        </tr>
-                        <tr>
-                            <td class="table-center-data">4</td>
-                            <td><div class="team-tab team-colour-redbull">Oracle Red Bull Racing</div></td>
-                            <td class="table-right-side-data">162</td>
-                        </tr>
-                        <tr>
-                            <td class="table-center-data">5</td>
-                            <td><div class="team-tab team-colour-williams">Williams Racing</div></td>
-                            <td class="table-right-side-data">55</td>
-                        </tr>
-                        <tr>
-                            <td class="table-center-data">6</td>
-                            <td><div class="team-tab team-colour-vcarb">Visa Cash App Racing Bulls</div></td>
-                            <td class="table-right-side-data">36</td>
-                        </tr>
-                        <tr>
-                            <td class="table-center-data">7</td>
-                            <td><div class="team-tab team-colour-haas">MoneyGram Haas</div></td>
-                            <td class="table-right-side-data">29</td>
-                        </tr>
-                        <tr>
-                            <td class="table-center-data">8</td>
-                            <td><div class="team-tab team-colour-astonmartin">Aston Martin Aramco</div></td>
-                            <td class="table-right-side-data">28</td>
-                        </tr>
-                        <tr>
-                            <td class="table-center-data">9</td>
-                            <td><div class="team-tab team-colour-sauber">Stake F1 Team Kick Sauber</div></td>
-                            <td class="table-right-side-data">26</td>
-                        </tr>
-                        <tr>
-                            <td class="table-center-data">10</td>
-                            <td><div class="team-tab team-colour-alpine">BWT Alpine</div></td>
-                            <td class="table-right-side-data">11</td>
-                        </tr>
+                    <thead>      
+                    <tbody id="constructorstablebody">
                     </tbody>
                 </table>
                 <p>
                     <ul class="text-white">
                         <li>Discover the latest race times and the upcoming schedule for the 2025 Formula 1 season.</li>
                         <li>The calendar displays each race session in your local time or in the time at the track.</li>
-                        <li>The next event is <span class="next-race-text">highlighted</span> on the calendar.</li>
+                        <li>The next race is <span class="next-race-text">highlighted</span> on the calendar.</li>
                         <li>Keep track of the driver and constructor standings throughout the year - points will be updated a short time after a race session finishes.</li>
                     </ul>
                 </p>
