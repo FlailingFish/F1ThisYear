@@ -6,6 +6,7 @@ let data;
 let calendarTimes = new Array();
 let calendarDates = new Array();
 let calendarEventDates;
+let calendarEventNames;
 
 let currentIndex = -1;
 
@@ -58,6 +59,7 @@ async function generateCalendarTimes() {
         const calendarTableObjects = document.getElementsByClassName("row-click");
         
         calendarEventDates = document.getElementsByClassName("event-dates");
+        calendarEventNames = document.getElementsByClassName("event-title");
 
         for(let i = 0; i < data.races.length; i++)
         {
@@ -67,6 +69,12 @@ async function generateCalendarTimes() {
 
             let raceSessionTimes = new Array();
             let raceSessionDates = new Array();
+            
+            if(data.races[i].nextevent)
+            {
+                calendarEventNames[i].classList.add("next-race");
+                calendarEventDates[i].classList.add("next-race");
+            }
 
             let startDate;
             let endDate;
