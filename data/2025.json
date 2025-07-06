@@ -179,8 +179,8 @@
         {"id":"rbr", "team":"Oracle Red Bull Racing", "points":172},
         {"id":"wir", "team":"Williams Racing", "points":59},
         {"id":"sau", "team":"Stake F1 Team Kick Sauber", "points":41},
-        {"id":"ast", "team":"Aston Martin Aramco", "points":36},
         {"id":"rab", "team":"Visa Cash App Racing Bulls", "points":36},
+        {"id":"ast", "team":"Aston Martin Aramco", "points":36},
         {"id":"haa", "team":"MoneyGram Haas", "points":29},
         {"id":"alp", "team":"BWT Alpine", "points":19}
     ]
