@@ -164,11 +164,11 @@
         {"name":"Fernando Alonso", "team":"ast", "points": 30},
         {"name":"Esteban Ocon", "team":"haa", "points": 28},
         {"name":"Pierre Gasly", "team":"alp", "points": 20},
-        {"name":"Liam Lawson", "team":"rbr", "points": 20},
+        {"name":"Liam Lawson", "team":"rab", "points": 20},
         {"name":"Oliver Bearman", "team":"haa", "points": 16},
         {"name":"Carlos Sainz Jr", "team":"wir", "points": 16},
         {"name":"Gabriel Bortoleto", "team":"sau", "points": 14},
-        {"name":"Yuki Tsunoda", "team":"rab", "points": 12},
+        {"name":"Yuki Tsunoda", "team":"rbr", "points": 12},
         {"name":"Franco Colapinto", "team":"alp", "points": 0},
         {"name":"Jack Doohan", "team":"alp", "points": 0}
     ],
