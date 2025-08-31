@@ -60,7 +60,7 @@ async function generateCalendarTimes() {
         
         calendarEventDates = document.getElementsByClassName("event-dates");
         calendarEventNames = document.getElementsByClassName("event-title");
-
+        
         for(let i = 0; i < data.races.length; i++)
         {
             let clone = calendarTimesTableTemplate.content.cloneNode(true);
@@ -96,7 +96,7 @@ async function generateCalendarTimes() {
                 let trackDateTime = DateTime.fromISO(timeToConvert, {zone: data.races[i].timezone});
                 let localDateTime = trackDateTime.toLocal();
                 let dateColumn = document.createElement("td");
-                dateColumn.innerHTML = localDateTime.monthLong + " " + localDateTime.day;
+                dateColumn.innerHTML = localDateTime.weekdayLong + " " + localDateTime.monthLong + " " + localDateTime.day;
                 row.appendChild(dateColumn);
 
                 //Time column
@@ -222,7 +222,7 @@ selectElement.addEventListener("change", (event) => {
 
             if(event.target.value == 1)
             {
-                calendarDates[i][j].innerHTML = trackDateTime.monthLong + " " + trackDateTime.day;
+                calendarDates[i][j].innerHTML = trackDateTime.weekdayLong + " " + trackDateTime.monthLong + " " + trackDateTime.day;
                 calendarTimes[i][j].innerHTML = trackDateTime.toLocaleString(DateTime.TIME_24_SIMPLE);
                 
                 //Start date
@@ -238,7 +238,7 @@ selectElement.addEventListener("change", (event) => {
             }
             else
             {
-                calendarDates[i][j].innerHTML = localDateTime.monthLong + " " + localDateTime.day;
+                calendarDates[i][j].innerHTML = localDateTime.weekdayLong + " " + localDateTime.monthLong + " " + localDateTime.day;
                 calendarTimes[i][j].innerHTML = localDateTime.toLocaleString(DateTime.TIME_24_SIMPLE);
 
                 //Start date
