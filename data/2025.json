@@ -175,11 +175,11 @@
     "constructors": [
         {"id":"mcl", "team":"McLaren", "points":650},
         {"id":"mer", "team":"Mercedes-AMG PETRONAS", "points":325},
-        {"id":"fer", "team":"Ferrari", "points":300},
+        {"id":"fer", "team":"Ferrari", "points":298},
         {"id":"rbr", "team":"Oracle Red Bull Racing", "points":290},
         {"id":"wir", "team":"Williams Racing", "points":102},
         {"id":"rab", "team":"Visa Cash App Racing Bulls", "points":72},
-        {"id":"ast", "team":"Aston Martin Aramco", "points":66},
+        {"id":"ast", "team":"Aston Martin Aramco", "points":68},
         {"id":"sau", "team":"Stake F1 Team Kick Sauber", "points":55},
         {"id":"haa", "team":"MoneyGram Haas", "points":46},
         {"id":"alp", "team":"BWT Alpine", "points":20}
