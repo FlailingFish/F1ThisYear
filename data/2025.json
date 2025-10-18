@@ -114,8 +114,8 @@
             {"name": "Race", "datetime": "2025-10-05T20:00:00"}]},
         {"name":"United States", "dates": "October 17-19", "timezone":"America/Chicago", "nextevent": true, "sessions": [
             {"name": "Practice 1", "datetime": "2025-10-17T12:30:00"}, 
-            {"name": "Practice 2", "datetime": "2025-10-17T16:30:00"}, 
-            {"name": "Practice 3", "datetime": "2025-10-18T12:00:00"},
+            {"name": "Sprint Qualifying", "datetime": "2025-10-17T16:30:00"}, 
+            {"name": "Sprint Race", "datetime": "2025-10-18T12:00:00"},
             {"name": "Qualifying", "datetime": "2025-10-18T16:00:00"},
             {"name": "Race", "datetime": "2025-10-19T14:00:00"}]},
         {"name":"Mexico", "dates": "October 24-26", "timezone":"America/Mexico_City", "sessions": [
