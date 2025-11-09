@@ -124,13 +124,13 @@
             {"name": "Practice 3", "datetime": "2025-10-25T11:30:00"},
             {"name": "Qualifying", "datetime": "2025-10-25T15:00:00"},
             {"name": "Race", "datetime": "2025-10-26T14:00:00"}]},
-        {"name":"Brazil", "dates": "November 7-9", "timezone":"America/Sao_Paulo", "nextevent": true, "sessions": [
+        {"name":"Brazil", "dates": "November 7-9", "timezone":"America/Sao_Paulo", "sessions": [
             {"name": "Practice 1", "datetime": "2025-11-07T11:30:00"}, 
             {"name": "Sprint Qualifying", "datetime": "2025-11-07T15:30:00"}, 
             {"name": "Sprint Race", "datetime": "2025-11-08T11:00:00"},
             {"name": "Qualifying", "datetime": "2025-11-08T15:00:00"},
             {"name": "Race", "datetime": "2025-11-09T14:00:00"}]},
-        {"name":"Las Vegas", "dates": "November 20-22", "timezone":"America/Los_Angeles", "sessions": [
+        {"name":"Las Vegas", "dates": "November 20-22", "timezone":"America/Los_Angeles", "nextevent": true, "sessions": [
             {"name": "Practice 1", "datetime": "2025-11-20T16:30:00"}, 
             {"name": "Practice 2", "datetime": "2025-11-20T20:00:00"}, 
             {"name": "Practice 3", "datetime": "2025-11-21T16:30:00"},
@@ -150,38 +150,38 @@
             {"name": "Race", "datetime": "2025-12-07T17:00:00"}]}
     ],
     "drivers": [
-        {"name":"Lando Norris", "team":"mcl", "points": 365},
-        {"name":"Oscar Piastri", "team":"mcl", "points": 356},
-        {"name":"Max Verstappen", "team":"rbr", "points": 326},
-        {"name":"George Russell", "team":"mer", "points": 264},
+        {"name":"Lando Norris", "team":"mcl", "points": 390},
+        {"name":"Oscar Piastri", "team":"mcl", "points": 366},
+        {"name":"Max Verstappen", "team":"rbr", "points": 341},
+        {"name":"George Russell", "team":"mer", "points": 276},
         {"name":"Charles Leclerc", "team":"fer", "points": 214},
         {"name":"Lewis Hamilton", "team":"fer", "points": 148},
-        {"name":"Andrea Kimi Antonelli", "team":"mer", "points": 104},
+        {"name":"Andrea Kimi Antonelli", "team":"mer", "points": 122},
         {"name":"Alexander Albon", "team":"wir", "points": 73},
-        {"name":"Nico Hulkenberg", "team":"sau", "points": 41},
+        {"name":"Nico Hulkenberg", "team":"sau", "points": 43},
+        {"name":"Isack Hadjar", "team":"rab", "points": 43},
+        {"name":"Oliver Bearman", "team":"haa", "points": 40},
         {"name":"Fernando Alonso", "team":"ast", "points": 40},
-        {"name":"Isack Hadjar", "team":"rab", "points": 39},
         {"name":"Carlos Sainz Jr", "team":"wir", "points": 38},
-        {"name":"Oliver Bearman", "team":"haa", "points": 32},
+        {"name":"Liam Lawson", "team":"rab", "points": 36},
         {"name":"Lance Stroll", "team":"ast", "points": 32},
-        {"name":"Liam Lawson", "team":"rab", "points": 30},
         {"name":"Esteban Ocon", "team":"haa", "points": 30},
         {"name":"Yuki Tsunoda", "team":"rbr", "points": 28},
-        {"name":"Pierre Gasly", "team":"alp", "points": 21},
+        {"name":"Pierre Gasly", "team":"alp", "points": 22},
         {"name":"Gabriel Bortoleto", "team":"sau", "points": 19},
         {"name":"Franco Colapinto", "team":"alp", "points": 0},
         {"name":"Jack Doohan", "team":"alp", "points": 0}
     ],
     "constructors": [
-        {"id":"mcl", "team":"McLaren", "points":721},
-        {"id":"mer", "team":"Mercedes-AMG PETRONAS", "points":368},
+        {"id":"mcl", "team":"McLaren", "points":756},
+        {"id":"mer", "team":"Mercedes-AMG PETRONAS", "points":398},
+        {"id":"rbr", "team":"Oracle Red Bull Racing", "points":366},
         {"id":"fer", "team":"Ferrari", "points":362},
-        {"id":"rbr", "team":"Oracle Red Bull Racing", "points":346},
         {"id":"wir", "team":"Williams Racing", "points":111},
-        {"id":"rab", "team":"Visa Cash App Racing Bulls", "points":72},
+        {"id":"rab", "team":"Visa Cash App Racing Bulls", "points":82},
         {"id":"ast", "team":"Aston Martin Aramco", "points":72},
-        {"id":"haa", "team":"MoneyGram Haas", "points":62},
-        {"id":"sau", "team":"Stake F1 Team Kick Sauber", "points":60},
-        {"id":"alp", "team":"BWT Alpine", "points":21}
+        {"id":"haa", "team":"MoneyGram Haas", "points":70},
+        {"id":"sau", "team":"Stake F1 Team Kick Sauber", "points":62},
+        {"id":"alp", "team":"BWT Alpine", "points":22}
     ]
 }
