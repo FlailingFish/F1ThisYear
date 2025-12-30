@@ -42,7 +42,21 @@ for(let i = 0; i < clickableRows.length; i++)
 }
 
 async function getData(year) {
-    const response = await fetch("data/2025.json");
+    var pagePath = window.location.pathname;
+    var page = pagePath.split("/").pop();
+
+    var path = "../data/";
+    if(page.toString() === "index.html" || page.toString() === "" || page.toString() === "#")
+    {
+        path = "data/2026.json";
+    }
+    else
+    {
+        var splitPath = page.split("-");
+        path += splitPath[0] + ".json";
+    }
+
+    const response = await fetch(path);
     const json = await response.json();
     return json;
 }
@@ -96,12 +110,28 @@ async function generateCalendarTimes() {
                 let trackDateTime = DateTime.fromISO(timeToConvert, {zone: data.races[i].timezone});
                 let localDateTime = trackDateTime.toLocal();
                 let dateColumn = document.createElement("td");
-                dateColumn.innerHTML = localDateTime.weekdayLong + " " + localDateTime.monthLong + " " + localDateTime.day;
+
+                if(data.races[i].sessions[j].datetime === "")
+                {
+                    dateColumn.innerHTML = "TBC";
+                }
+                else
+                {
+                    dateColumn.innerHTML = localDateTime.weekdayLong + " " + localDateTime.monthLong + " " + localDateTime.day;
+                }
                 row.appendChild(dateColumn);
 
                 //Time column
                 let timeColumn = document.createElement("td");
-                timeColumn.innerHTML = localDateTime.toLocaleString(DateTime.TIME_24_SIMPLE);
+
+                if(data.races[i].sessions[j].datetime === "")
+                {
+                    timeColumn.innerHTML = "TBC";
+                }
+                else
+                {
+                     timeColumn.innerHTML = localDateTime.toLocaleString(DateTime.TIME_24_SIMPLE);
+                }
                 timeColumn.classList.add("table-right-side-data");
                 row.appendChild(timeColumn);
                 
@@ -190,12 +220,19 @@ function getTeamColorClass(team)
     if(team === "rab") { return "team-colour-vcarb"; }
     if(team === "wir") { return "team-colour-williams"; }
     if(team === "sau") { return "team-colour-sauber"; }
+    if(team === "cad") { return "team-colour-cadillac"; }
 
     return "";
 }
 
 function constructEventDates(index, startDate, endDate)
 {
+    if(startDate.monthLong === null)
+    {
+        calendarEventDates[index].innerHTML = data.races[index].dates;
+        return;
+    }   
+
     if(startDate.monthLong === endDate.monthLong)
     {
         calendarEventDates[index].innerHTML = startDate.monthLong + " " + startDate.day + "-" + endDate.day;
