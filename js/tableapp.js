@@ -84,6 +84,8 @@ async function generateCalendarTimes() {
             let raceSessionTimes = new Array();
             let raceSessionDates = new Array();
             
+            calendarEventNames[i].innerHTML = data.races[i].name;
+
             if(data.races[i].nextevent)
             {
                 calendarEventNames[i].classList.add("next-race");
