@@ -171,15 +171,15 @@
     ],
     "constructors": [
         {"id":"mcl", "team":"McLaren", "points":0},
-        {"id":"mer", "team":"Mercedes-AMG PETRONAS", "points":0},
-        {"id":"rbr", "team":"Oracle Red Bull Racing", "points":0},
+        {"id":"mer", "team":"Mercedes", "points":0},
+        {"id":"rbr", "team":"Red Bull Racing", "points":0},
         {"id":"fer", "team":"Ferrari", "points":0},
-        {"id":"wir", "team":"Williams Racing", "points":0},
-        {"id":"rab", "team":"Visa Cash App Racing Bulls", "points":0},
-        {"id":"ast", "team":"Aston Martin Aramco", "points":0},
-        {"id":"haa", "team":"MoneyGram Haas", "points":0},
+        {"id":"wir", "team":"Williams", "points":0},
+        {"id":"rab", "team":"Racing Bulls", "points":0},
+        {"id":"ast", "team":"Aston Martin", "points":0},
+        {"id":"haa", "team":"Haas F1 Team", "points":0},
         {"id":"sau", "team":"Audi", "points":0},
-        {"id":"alp", "team":"BWT Alpine", "points":0},
+        {"id":"alp", "team":"Alpine", "points":0},
         {"id":"cad", "team":"Cadillac", "points":0}
     ]
 }
