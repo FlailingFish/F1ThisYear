@@ -57,6 +57,10 @@ nav {
     --bs-table-color: rgb(255, 166, 0);
 }
 
+.cancelled-race {
+    text-decoration: line-through;
+}
+
 .next-race-text {
   font-weight: 700;
   color: rgb(255, 166, 0);

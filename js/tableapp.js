@@ -92,6 +92,12 @@ async function generateCalendarTimes() {
                 calendarEventDates[i].classList.add("next-race");
             }
 
+            if(data.races[i].cancelled)
+            {
+                calendarEventNames[i].classList.add("cancelled-race");
+                calendarEventDates[i].classList.add("cancelled-race");
+            }
+
             let startDate;
             let endDate;
 
