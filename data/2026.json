@@ -35,7 +35,7 @@
             {"name": "Sprint Qualifying", "datetime": "2026-05-01T16:30:00"}, 
             {"name": "Sprint Race", "datetime": "2026-05-02T12:00:00"},
             {"name": "Qualifying", "datetime": "2026-05-02T16:00:00"},
-            {"name": "Race", "datetime": "2026-05-03T16:00:00"}]},
+            {"name": "Race", "datetime": "2026-05-03T13:00:00"}]},
         {"name":"Canada", "dates": "May 22-24", "timezone":"America/Montreal", "sessions": [
             {"name": "Practice 1", "datetime": "2026-05-22T12:30:00"}, 
             {"name": "Sprint Qualifying", "datetime": "2026-05-22T16:30:00"}, 
