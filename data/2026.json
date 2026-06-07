@@ -161,12 +161,12 @@
         {"name":"Arvid Lindblad", "team":"rab", "points": 13},
         {"name":"Carlos Sainz Jr", "team":"wir", "points": 6},
         {"name":"Alexander Albon", "team":"wir", "points": 5},
-        {"name":"Nico Hulkenberg", "team":"sau", "points": 2},
+        {"name":"Esteban Ocon", "team":"haa", "points": 3},
         {"name":"Gabriel Bortoleto", "team":"sau", "points": 2},
-        {"name":"Esteban Ocon", "team":"haa", "points": 2},
-        {"name":"Sergio Perez", "team":"cad", "points": 0},
-        {"name":"Fernando Alonso", "team":"ast", "points": 0},
+        {"name":"Fernando Alonso", "team":"ast", "points": 1},
+        {"name":"Nico Hulkenberg", "team":"sau", "points": 0},
         {"name":"Valtteri Bottas", "team":"cad", "points": 0},
+        {"name":"Sergio Perez", "team":"cad", "points": 0},
         {"name":"Lance Stroll", "team":"ast", "points": 0}
     ],
     "constructors": [
@@ -176,10 +176,10 @@
         {"id":"rbr", "team":"Red Bull Racing", "points":72},
         {"id":"alp", "team":"Alpine", "points":41},
         {"id":"rab", "team":"Racing Bulls", "points":39},
-        {"id":"haa", "team":"Haas F1 Team", "points":20},
+        {"id":"haa", "team":"Haas F1 Team", "points":21},
         {"id":"wir", "team":"Williams", "points":11},
-        {"id":"sau", "team":"Audi", "points":4},
-        {"id":"cad", "team":"Cadillac", "points":0},
-        {"id":"ast", "team":"Aston Martin", "points":0}
+        {"id":"sau", "team":"Audi", "points":2},
+        {"id":"ast", "team":"Aston Martin", "points":1},
+        {"id":"cad", "team":"Cadillac", "points":0}
     ]
 }
