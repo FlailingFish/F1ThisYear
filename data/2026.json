@@ -112,7 +112,7 @@
             {"name": "Practice 1", "datetime": "2026-10-09T17:30:00"}, 
             {"name": "Sprint Qualifying", "datetime": "2026-10-09T20:30:00"}, 
             {"name": "Sprint Race", "datetime": "2026-10-10T17:00:00"},
-            {"name": "Qualifying", "datetime": "2026-10-10T21:00:00"},
+            {"name": "Qualifying", "datetime": "2026-10-10T21:30:00"},
             {"name": "Race", "datetime": "2026-10-11T20:00:00"}]},
         {"name":"USA (Austin)", "dates": "October 23-25", "timezone":"America/Chicago", "nextevent": true, "sessions": [
             {"name": "Practice 1", "datetime": "2026-10-23T12:30:00"}, 
