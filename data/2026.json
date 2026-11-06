@@ -120,13 +120,13 @@
             {"name": "Practice 3", "datetime": "2026-10-24T12:30:00"},
             {"name": "Qualifying", "datetime": "2026-10-24T16:00:00"},
             {"name": "Race", "datetime": "2026-10-25T15:00:00"}]},
-        {"name":"Mexico", "dates": "October 30-November 1", "timezone":"America/Mexico_City", "nextevent": true, "sessions": [
+        {"name":"Mexico", "dates": "October 30-November 1", "timezone":"America/Mexico_City", "sessions": [
             {"name": "Practice 1", "datetime": "2026-10-30T12:30:00"}, 
             {"name": "Practice 2", "datetime": "2026-10-30T16:00:00"}, 
             {"name": "Practice 3", "datetime": "2026-10-31T11:30:00"},
             {"name": "Qualifying", "datetime": "2026-10-31T15:00:00"},
             {"name": "Race", "datetime": "2026-11-01T14:00:00"}]},
-        {"name":"Brazil", "dates": "November 6-8", "timezone":"America/Sao_Paulo", "sessions": [
+        {"name":"Brazil", "dates": "November 6-8", "timezone":"America/Sao_Paulo", "nextevent": true, "sessions": [
             {"name": "Practice 1", "datetime": "2026-11-06T12:30:00"}, 
             {"name": "Practice 2", "datetime": "2026-11-06T16:00:00"}, 
             {"name": "Practice 3", "datetime": "2026-11-07T11:30:00"},
